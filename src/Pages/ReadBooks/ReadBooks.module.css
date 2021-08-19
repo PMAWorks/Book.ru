@@ -1,0 +1,19 @@
+.ControlPanel{
+    width: 100%;
+    background-color: gray;
+    margin-top: -50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50px;
+}
+
+.ControlButton{
+    width: 150px;
+    background-color: white;
+    height: 40px;
+    margin: 5px auto;
+    line-height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+}

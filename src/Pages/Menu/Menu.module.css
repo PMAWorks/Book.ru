@@ -1,0 +1,47 @@
+.MenuItem{
+    width: 100%;
+    margin: 15px auto;
+    height: min-content;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid #c3c3c3;
+}
+
+.MenuInsideItem{
+    display: grid;
+    grid-template-columns: 60px 1fr 2px;
+    line-height: 50px;
+    height: 50px;
+    margin: 10px;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.HiddenItems{
+    display: none;
+}
+
+.NotHidenItems{
+    display: grid;
+}
+
+.MenuInsideItem:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+.ZagImg{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin: 10px 0 10px 10px;
+}
+
+.Arrow{
+    position: relative;
+    top: 20px;
+    left: -10px;
+    width: 0px;
+    height: 0px;
+    line-height: 0px;
+
+}

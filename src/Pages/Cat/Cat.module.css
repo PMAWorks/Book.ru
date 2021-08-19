@@ -1,0 +1,42 @@
+.Cat{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 76%;
+    margin: 0px auto;
+}
+
+.mainInfo{
+    width: 90%;
+    margin: 10px auto;
+    text-align: left;
+}
+
+.Books{
+    width: 90%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.BookCard{
+    width: 90%;
+    height: 400px;
+    margin: 0px auto;
+    text-align: left;
+    display: grid;
+    grid-template-rows: 220px 50px 50px ;
+
+}
+
+.CardImg{
+    width: 130px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.PageName{
+    font-size: 25px;
+    font-family: Nunito;
+    text-align: left;
+    margin: 10px 0 30px 20px;
+}

@@ -1,0 +1,69 @@
+.TopMenu{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(219, 219, 219);
+    margin: 20px 0 50px 0;
+}
+
+.TopMenuContainer{
+    width: 76%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.PagesRef{
+    display: grid;
+    grid-template-columns: min-content min-content min-content;
+}
+
+.MenuItem{
+    line-height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: Nunito;
+    margin: 0px 20px 0 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.Podch{
+    width: 100%;
+    height: 5px;
+    position: relative;
+    top: -5px;
+    background-color: rgb(67, 112, 0);
+}
+
+.TopInput{
+    margin: 8px auto;
+    height: 29px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+    box-shadow: 3px 3px 10px gray;
+    padding-left: 10px;
+
+}
+
+.SearchButton{
+    margin-top: 8px;
+    width: 100%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 33px;
+    background-color: rgba(101, 163, 0);
+}
+
+.RightMenu{
+    display: grid;
+    grid-template-columns: 1fr 50px;
+}
